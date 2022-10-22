@@ -11,7 +11,7 @@ function Dashboard() {
                 <p class="card-text">Instagram: plants.durant</p>
                 <p class="card-text">Twitter: @theDurant</p>
                 <p class="card-text">Facebook: Durant</p>
-                <a href="#" class="btn btn-primary">Update Profile</a>
+                <a href="#" class="btn btn-dark">Update Profile</a>
             </div>
         </div>
         <br/>

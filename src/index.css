@@ -51,9 +51,18 @@ code {
 }
 
 .dashboard {
-  margin-top: 1%;
   margin-left: 25%;
   margin-right: 25%;
+}
+
+#gif {
+  border-radius: 5%;
+  width: 200px;
+  opacity: 75%;
+}
+
+#gifnav{
+  border-radius: 30px;
 }
 
 /* .card-img-top {
