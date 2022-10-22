@@ -11,7 +11,7 @@ View the web page, hosted aws [here.](http://44.201.166.62:3000/)
 
 You should expect to see a page like this:
 
-<img src="https://github.com/ChadGichuki/plant-lovers-paradise/blob/main/public/home.png" height="500">
+<img src="https://github.com/ChadGichuki/Conservation-heroes/blob/main/public/readme.png" height="500">
 
 
 ## Getting Started
