@@ -1,4 +1,6 @@
 body {
+  background-image: url("../public/photo.jpg");
+  background-size: cover;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +13,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home {
+  margin: auto;
+  text-align: center;
+  padding: 150px 0;
+  
+  }
+
+.leaderboard {
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
+.homebtn {
+  margin-right: 10px;
+  margin-left: 10px;
+  max-height: fit-content;
+  text-decoration: none;
+  background-color: rgb(66, 114, 68);
+  padding: 7px 12px;
+  color: white;
+}
+
+.signup {
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 38%;
+  padding: 2em;
+  border: solid 1px rgb(66, 114, 68);
+  border-radius: 5%;
+}
+
+#dashbackground {
+  background-color: black;
+}
+
+.dashboard {
+  margin-top: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* .card-img-top {
+  max-height: 200px;
+} */
