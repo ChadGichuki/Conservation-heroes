@@ -25,17 +25,20 @@ function Signup() {
                 console.error(err)
             }
             console.log(data)
-            navigate('/dashboard')
         })
 
-        fetch("#", {
+        fetch("http://35.175.182.106:8000/api/auth", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(formData)
         })
-        .then(console.log("User added successfully!"))
+        .then(()=> {
+            
+            console.log("User added successfully!")
+            navigate('/dashboard')}
+            )
 
         e.target.reset()
     }

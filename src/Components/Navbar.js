@@ -1,3 +1,5 @@
+import React from "react"
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
@@ -18,7 +20,10 @@ function Navbar() {
               <a className="nav-link" href="/dashboard">Dashboard</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/signup">Signup</a>
+              <a className="nav-link" href="/signup" target="_blank">Signup</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="http://35.175.182.106:8000/api/login" target="_blank">DEMO</a>
             </li>
           </ul>
         </div>
